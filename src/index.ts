@@ -1,10 +1,3 @@
-let sales = 123_456_789;
-let course = 'TypeScript';
-let is_published = true;
-let level;
-level = 2;
-level = 'a'
-
-function render(document: any){
-    console.log(document)
-}
+let numbers = [];
+numbers[0] = 1;
+numbers[1] = '1';
