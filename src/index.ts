@@ -1,2 +1,1 @@
-let numbers: number[] = [];
-numbers[0] = 1;
+let user: [number, string] = [1, 'rafi'];
