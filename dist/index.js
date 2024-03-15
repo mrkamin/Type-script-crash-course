@@ -1,11 +1,9 @@
 "use strict";
-var Size;
-(function (Size) {
-    Size[Size["Small"] = 1] = "Small";
-    Size[Size["Medium"] = 2] = "Medium";
-    Size[Size["Large"] = 3] = "Large";
-})(Size || (Size = {}));
-;
-let mySize = 2;
-console.log(mySize);
+function calculateTax(incom, taxYear = 2022) {
+    if (taxYear < 2022)
+        return incom * 1.2;
+    return incom * 1.3;
+}
+console.log("incom");
+calculateTax(10000);
 //# sourceMappingURL=index.js.map
