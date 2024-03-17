@@ -1,9 +1,9 @@
 "use strict";
-let employee = {
-    id: 1,
-    name: 'Rafi',
-    retire: (date) => {
-        console.log(date);
-    }
-};
+function great(name) {
+    if (name)
+        console.log(name.toUpperCase());
+    else
+        console.log("Hola");
+}
+great(null);
 //# sourceMappingURL=index.js.map

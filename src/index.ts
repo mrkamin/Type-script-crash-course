@@ -3,5 +3,3 @@ function great(name: string | null | undefined) {
   else console.log("Hola");
 }
 great(undefined);
-
-type Metric = 'cm' | 'inch';
