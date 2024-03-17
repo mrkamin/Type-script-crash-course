@@ -1,5 +1,7 @@
-type Quanity = 50 | 100;
-
-let quantity: Quanity = 100;
+function great(name: string | null | undefined) {
+  if (name) console.log(name.toUpperCase());
+  else console.log("Hola");
+}
+great(undefined);
 
 type Metric = 'cm' | 'inch';
