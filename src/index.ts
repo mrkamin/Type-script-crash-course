@@ -15,3 +15,6 @@ console.log(customer?.birthday?.getFullYear())
 // if (customers !== null && customers !== undefined)
 // customers?.[0]
 
+//Optional call
+let log: any = null;
+log?.('a');
