@@ -10,3 +10,8 @@ let customer = getCustomer(1);
 //if (customer !== null && customer !== undefined)
 // Optional property access operator
 console.log(customer?.birthday?.getFullYear())
+
+// Optional element access operator 
+// if (customers !== null && customers !== undefined)
+// customers?.[0]
+
