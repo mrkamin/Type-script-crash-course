@@ -7,5 +7,6 @@ function getCustomer(id: number): Customer | null | undefined {
 }
 
 let customer = getCustomer(0);
-if (customer !== null && customer !== undefined)
-console.log(customer.birthday)
+//if (customer !== null && customer !== undefined)
+// Optional property access operator
+console.log(customer?.birthday)
