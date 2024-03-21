@@ -9,7 +9,7 @@ console.log(greetings);
 
 let userId = 334455.3;
 
-
+userId.toFixed()
 
 // boolean
 
