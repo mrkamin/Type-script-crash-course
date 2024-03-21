@@ -1,5 +1,3 @@
-let greetings: string = "Hello Rafi";
-
-console.log(greetings);
-
-export {}
+let message: string = "Hello World";
+message.toLowerCase();
+console.log(message);

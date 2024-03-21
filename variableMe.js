@@ -1,2 +1,3 @@
-var greetings = "Hello Rafi";
-console.log(greetings);
+var message = "Hello World";
+message.toLowerCase();
+console.log(message);
