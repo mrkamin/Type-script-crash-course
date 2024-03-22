@@ -1,9 +1,12 @@
 // any
 
-let hero;
-
-function getHero() {
-    return "Rafi"
+function addTwo(num: number) {
+    return num + 2;
 }
 
-hero = getHero()
+function getUpper(val: string) {
+    return val.toUpperCase()
+}
+
+addTwo(5);
+getUpper("Rafi")
