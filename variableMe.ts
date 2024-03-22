@@ -1,18 +1,9 @@
-//string
-let greetings: string = "Hello World";
+// any
 
-greetings.toLowerCase();
+let hero;
 
-console.log(greetings);
+function getHero() {
+    return "Rafi"
+}
 
-// number
-
-let userId: number = 334455.3;
-
-userId.toFixed()
-
-// boolean
-
-let isLoggedIn: boolean = false 
-
-export {};
+hero = getHero()
