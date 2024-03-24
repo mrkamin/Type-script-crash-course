@@ -20,3 +20,11 @@ let myValue = addTwo(5);
 getUpper("Rafi")
 signUpUser("Rafi","rafi.amin@justcold.co.uk", false);
 loginUser("Rafi", "rafi@justcold.co.uk")
+
+function getValue(myVal: number): boolean{
+    if(myVal > 5) {
+        return true
+    }
+
+    return "200 OK"
+}
