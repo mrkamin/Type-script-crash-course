@@ -1,8 +1,8 @@
 // any
 
-function addTwo(num: number) {
-   // return num + 2;
-   return "Rafi"
+function addTwo(num: number): number {
+return num + 2;
+   //return "Rafi"
 }
 
 function getUpper(val: string) {
