@@ -39,3 +39,11 @@ const heros = ["thor", "spiderman", "ironman"]
 heros.map(hero => {
     return `hero is ${hero}`
 })
+
+function consolError(errmsg: string): void{
+    console.log(errmsg);
+}
+
+function handleError(errmsg: string): never{
+    throw new Error(errmsg);
+}
