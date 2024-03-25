@@ -47,3 +47,20 @@ function consolError(errmsg: string): void{
 function handleError(errmsg: string): never{
     throw new Error(errmsg);
 }
+
+
+// miss behaive of TS
+
+const User = {
+    name: "Rafi",
+    email: "rafi@rafi.com",
+    isAactivate: true
+}
+
+function createUser({name: string, isPaid: boolean}){
+
+}
+
+createUser({name: "rafi", isPaid: false})
+
+export {}
