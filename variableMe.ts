@@ -32,3 +32,10 @@ loginUser("Rafi", "rafi@justcold.co.uk")
 const getHello = (s: string): string => {
     return ""
 }
+
+const heros = ["thor", "spiderman", "ironman"]
+//const heros = [1, 2, 3]
+
+heros.map(hero => {
+    return `hero is ${hero}`
+})
