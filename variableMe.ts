@@ -21,10 +21,14 @@ getUpper("Rafi")
 signUpUser("Rafi","rafi.amin@justcold.co.uk", false);
 loginUser("Rafi", "rafi@justcold.co.uk")
 
-function getValue(myVal: number): boolean{
-    if(myVal > 5) {
-        return true
-    }
+// function getValue(myVal: number): boolean{
+//     if(myVal > 5) {
+//         return true
+//     }
 
-    return "200 OK"
+//     return "200 OK"
+// }
+
+const getHello = (s: string): string => {
+    return ""
 }
