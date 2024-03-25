@@ -63,4 +63,8 @@ function createUser({name: string, isPaid: boolean}){
 
 createUser({name: "rafi", isPaid: false})
 
+function createCourse():{name: string, price: number}{
+    return {name: "reactjs", price: 299}
+}
+
 export {}
