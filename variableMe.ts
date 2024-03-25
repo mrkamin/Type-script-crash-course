@@ -60,8 +60,9 @@ const User = {
 function createUser({name: string, isPaid: boolean}){
 
 }
+let newUser = {name: "rafi", isPaid: false, email: "rafi@rafi.com"}
 
-createUser({name: "rafi", isPaid: false, email: "rafi@rafi.com"})
+createUser(newUser)
 
 function createCourse():{name: string, price: number}{
     return {name: "reactjs", price: 299}
