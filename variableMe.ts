@@ -15,6 +15,7 @@ type User = {
   name: string;
   email: string;
   isActive: boolean;
+  cardDetails?: number
 };
 
 let myUser: User = {
