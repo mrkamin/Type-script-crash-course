@@ -10,6 +10,11 @@ type User = {
 
 const allUsers: User[] = []
 
+const arrayOfArray: number[][] =[
+  [255, 255, 255],
+  []
+]
+
 superHeros.push("siderman")
 heroPower.push(2)
 
