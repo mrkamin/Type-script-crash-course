@@ -16,3 +16,5 @@ type Admin  ={
 let rafi: User | Admin = {
   name: "Rafi", id: 222
 }
+
+rafi = {username: "kambiz", id: 333}
